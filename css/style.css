@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+
+
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.small-bold-text{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:'Poppins', sans-serif; 
+    text-align: center;
+    color: white;
+    padding: 15px 30px;
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+
+}
+
+.top-banner{
+    background-color: #4fb3d4;
+    background-image: url(../img/asset\ 32.png);
+    background-size: 300px;
+}
+
+
+
+
+#companylogo img{
+    width: 200px;
+}
+
+.main-nav{
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+}
+
+.hover-links{
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.hover-links:hover{
+    color: var(--secondary-text-color);
+}
+
+.primary-button{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    transition: 0.2s ease-out;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+}
+
+.primary-button:hover{
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-button{
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-weight: 700;
+    transition: 0.2s ease-out;
+    color: var(--primary-text-color) !important;
+}
+
+.secondary-button:hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+
+header{
+    padding: 50px var(--padding-inline-section) 0;
+}
+.right-side img{
+    width: 600px;
+}
+
+.header-section{
+    justify-content: center;
+    gap: 40px;
+}
+
+.left-side h1{
+    padding: 10px 0;
+}
+
+.left-side a {
+    margin: 20px 0;
+}
+
+.left-side{
+    max-width: 40vw;
+}
+
+.companies-header{
+    margin-block: 30px;
+}
+
+.companies-header p{
+    color: var(--primary-text-color) !important;
+}
+
+.logo{
+    height: 50px;
+}
+
+.logos{
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo8{
+    height: 40px;
+}
+
+.companies{
+    margin-bottom: 30px;
+}
+
+.feature-heading{
+    flex-direction: column;
+    text-align: center;
+}
+
+.feature-heading h2{
+    margin-bottom: 15px;
+}
+
+.feature-heading .secondary-button{
+    margin-bottom: 20px;
+}
+
+.card{
+    flex-direction: column;
+    max-width: 30%;
+    text-align: center;
+}
+
+.card img{
+    height: 35px;
+}
+
+.card p{
+    padding: 7px var(--padding-inline-section) 10px;
+}
+
+.card h3{
+    padding-top: 7px;
+}
+
+.card-features{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card .secondary-button{
+    margin-bottom: 15px;
+}
+
+.features {
+    background-image: url(../img/bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+  .big-feature1 .left-side img{
+    width: 500px;
+}
+
+.big-feature1{ 
+    gap: 87px;
+    margin-top: 30px;
+}
+
+.right-side{
+    max-width: 50%;
+}
+
+.right-side #chartmogul{
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.right-side h3{
+    font-size: 1rem!important;
+}
+
+.right-side #nickfranklin{
+    width: 50px;
+    margin-top: 20px;
+}
+
+.nickname{
+    position: relative;
+    left: 59px;
+    bottom: 55px;
+}
+
+.nickname h3{
+    font-weight: 500;
+}
+
+.nickname p{
+    font-size: 0.9rem;
+    margin-top: -6px;
+}
+
+ .right-side1 img{
+    width: 500px;
+}
+
+.big-feature2 .left-side{
+    max-width: 40%;
+}
+
+.examples-area{
+    justify-content: space-between;
+}
+.example{
+    width: 23%;
+    height: 350px;
+    background-color: black;
+    color: white;
+    position: relative;
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(../img/asset\ 36.jpeg);
+    background-size: cover;
+    transition: 0.5s ease-out;
+}
+
+.example:nth-child(2){
+    width: 23%;
+    height: 350px;
+    background-color: black;
+    color: white;
+    position: relative;
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(../img/asset\ 37.jpeg);
+    background-size: cover;
+    transition: 0.5s ease-out;
+}
+
+.example:nth-child(3){
+    width: 23%;
+    height: 350px;
+    background-color: black;
+    color: white;
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)) ,url(../img/asset\ 38.jpeg);
+    background-size: cover;
+    transition: 0.5s ease-out;
+}
+
+.example:nth-child(4){
+    width: 23%;
+    height: 350px;
+    background-color: black;
+    color: white;
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url(../img/asset\ 39.jpeg);
+    background-size: cover;
+    transition: 0.5s ease-out;
+}
+
+.example-heading{
+    position: absolute;
+    bottom: 12px;
+    left: 20px;
+    right: 10px;
+}
+
+.example:hover{
+    width: 25%;
+    height: 360px;
+}
+
+.cta-container{
+    flex-direction: column;
+}
+
+
+.cta-section{
+    background-color: var(--primary-text-color);
+    padding: 80px var(--padding-inline-section) 30px;
+    margin-top: 20px;
+}
+
+.cta-container h3{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.cta-container p{
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+.footer-ex{
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.footer-container{
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: -7px;
+}
+
+footer{
+    background-color: #dceaf7;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+.footer-ex .hover-links p:hover{
+    color: black
+}
+
+.sub-footer-text #texthover{
+    font-size: 20px;
+    font-weight: 10px;
+}
+
+.sub-footer{
+    background-color: #4fb3d4;
+}
+
+.subfooter-container{
+    justify-content: space-between;
+    gap: 90px;
+}
+
+
+.subfooter-text{
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 75%;
+    padding: 12px;
+    margin-left: 50px;
+}
+
+.subfooter-icons{
+    width: 30%;
+    gap: 30px;
+}
